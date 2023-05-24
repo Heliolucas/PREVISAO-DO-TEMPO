@@ -13,7 +13,7 @@ body{
     align-items: center;
     height: 100vh;
     position: relative;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .hide{
