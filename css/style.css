@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{
+    background: url('https://source.unsplash.com/1600x900/?landscape');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+.hide{
+    display: none;
+}
+
+.container{
+    background-color: #023047b5;
+    box-shadow: rgb(0, 0, 0, 0.44) 0px 3px 8px;
+    padding: 2rem;
+    color: #fdfdfd;
+    border-radius: 1rem;
+    min-width: 350px;
+}
+
+/* form */
+.form h3{
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.form-input-container{
+    display: flex;
+}
+
+.form input{
+    font-size: 15px;
+    padding: .8rem;
+    border: none;
+    flex: 1;
+    border-radius: 10px;
+    text-align: center;
+    outline: none;
+}
+
+.form button{
+    padding: 0.8rem;
+    min-width: 50px;
+    margin-left: 8px;
+    background-color: #8dd0f5;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+
+}
+
+/* Clima */
+
+#weather-data{
+    border-top: 1px solid #FFF;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    text-align: center;
+}
+
+#weather-data h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: .6rem;
+}
+
+#weather-data #city{
+    font-size: 2rem;
+}
+
+#weather-data span{
+    margin: 0.6rem;
+}
+
+/* #country{
+    height: 25px ;
+} */
+#weather-data #temperature{
+    font-size: 1.4rem;
+}
+
+#description-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .6rem 0;
+    padding-right: 10%;
+}
+
+#details-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#details-container #humidity{
+    border-right: 1px solid #FFF ;
+    margin: .6rem;
+    padding: 0.6rem;
+}
+
+/* Footer */
+footer{
+    color: #FFF;
+    position: absolute;
+    text-align: center;
+    top: 650px;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="img/nebuloso.png" type="image/x-icon">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- JS -->
+    <script src="js/script.js" defer></script>
+
+    <title>Clima</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form">
+
+            <h3>CLIMA-TEMPO</h3>
+
+            <div class="form-input-container">
+                <input  placeholder="Digite o nome de de sua Cidade" id="city-input">
+
+                <button id="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+        </div>
+
+        <div id="weather-data">
+            <h2>
+                <i class="fa-solid fa-location-dot"></i>
+                <span id="city">Aguardando</span>
+                <!-- <img src="https://flagsapi.com/BR/flat/64.png" alt="bandeira" id="country"> -->
+            </h2>
+
+            <p id="temperature"><span>0</span>&deg;C</p>
+
+            <div id="description-container">
+                <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="condições do clima" id="weather-icon">
+                <p id="description">aguardando</p>
+            </div>
+            <div id="details-container">
+                <p id="humidity">
+                    <i class="fa-solid fa-droplet"></i>
+                    <span>0%</span>
+                </p>
+                <p id="wind">
+                    <i class="fa-solid fa-wind"></i>
+                    <span>0km/h</span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <footer>&copy; heliolucas_</footer>
+
+</body>
+
+</html>
